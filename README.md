@@ -354,7 +354,7 @@ Let's see those problems and see how `radioactive-state` is immune to them.
   This is because increment function "closes over" the count when it was defined
 
   ```js
-  // to fix this you have would have to set the state like this
+  // to fix this you would have to set the state like this
   // this creates confusion about what happens when
   setCount(previousCount => previousCount + 1)
   ```
